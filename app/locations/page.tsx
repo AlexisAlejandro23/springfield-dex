@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useTransition } from "react";
+import { useState, useEffect, useTransition, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import DonutMinigame from "../components/DonutMinigame";
@@ -22,7 +22,7 @@ const LOADING_QUOTES = [
     "Homero está perdiendo el control en la compuerta 7..."
 ];
 
-export default function LocationsPage() {
+function LocationsContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -382,5 +382,13 @@ export default function LocationsPage() {
                 </button>
             </div>
         </div>
+    );
+}
+
+export default function LocationsPage() {
+    return (
+        <Suspense fallback={<div className="w-full min-h-screen bg-[#72bcd5] flex items-center justify-center"><p className="font-simpson-title text-2xl text-black font-black">Cargando locaciones de Springfield... 🍩</p></div>}>
+            <LocationsContent />
+        </Suspense>
     );
 }
