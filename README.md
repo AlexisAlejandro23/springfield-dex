@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/AlexisAlejandro23/springfield-dex">
+    <h1 align="center">🍩 SPRINGFIELD DEX</h1>
+  </a>
 
-## Getting Started
+  <p align="center">
+    Tu enciclopedia interactiva definitiva del universo de Los Simpson. ¡D'oh!
+    <br />
+    <a href="https://github.com/AlexisAlejandro23/springfield-dex/issues">Reportar Error</a>
+    ·
+    <a href="https://github.com/AlexisAlejandro23/springfield-dex/issues">Solicitar Funcionalidad</a>
+  </p>
+</div>
 
-First, run the development server:
+<!-- TABLA DE CONTENIDOS -->
+<details>
+  <summary>Tabla de Contenidos</summary>
+  <ol>
+    <li>
+      <a href="#sobre-el-proyecto">Sobre el Proyecto</a>
+      <ul>
+        <li><a href="#construido-con">Construido Con</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#características">Características</a>
+    </li>
+    <li>
+      <a href="#inicio-rápido">Inicio Rápido</a>
+      <ul>
+        <li><a href="#prerrequisitos">Prerrequisitos</a></li>
+        <li><a href="#instalación-y-configuración">Instalación y Configuración</a></li>
+      </ul>
+    </li>
+    <li><a href="#scripts-disponibles">Scripts Disponibles</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ol>
+</details>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+<!-- SOBRE EL PROYECTO -->
+## 💻 Sobre el Proyecto
+
+**Springfield Dex** es una aplicación web interactiva que funciona como una enciclopedia completa del universo de Los Simpson. Combina animaciones temáticas con una navegación moderna para ofrecer a los fans de la serie una forma divertida y atractiva de explorar personajes, episodios y lugares emblemáticos de Springfield.
+
+> "El alcohol: la causa y la solución de todos los problemas de la vida." - Homero Simpson
+
+### Construido Con
+
+Esta aplicación aprovecha el ecosistema moderno de React para asegurar un rendimiento óptimo, renders ultrarrápidos y animaciones de alta calidad:
+
+* [![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+* [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+* [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+* [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+### 📡 API Utilizada
+
+Este proyecto consume la API de **[The Simpsons API](https://thesimpsonsapi.com/)** para obtener información en tiempo real sobre personajes, episodios y citas de la serie.
+
+> **Nota:** Este proyecto utiliza la API de The Simpsons API para proporcionar datos sobre el universo de Los Simpson.
+
+---
+
+<!-- CARACTERÍSTICAS -->
+## ✨ Características
+
+- 👥 **Exploración de Personajes:** Busca y descubre información detallada sobre los habitantes de Springfield.
+- 📺 **Catálogo de Episodios:** Navega por la historia de la serie con información de episodios.
+- 🗺️ **Lugares Emblemáticos:** Explora los sitios más icónicos de Springfield con descripciones temáticas.
+- 🎮 **Mini-Juegos Interactivos:** Incluye juegos de donas, trivia de episodios y easter eggs ocultos.
+- 🎨 **Diseño Temático:** Interfaz inspirada en el estilo visual de Los Simpson con animaciones fluidas.
+- ⚡ **Rendimiento de Vanguardia:** Renderizado optimizado con Next.js 16.
+- 📱 **Diseño Responsivo:** Adaptado completamente a dispositivos móviles, tablets y escritorio con Tailwind CSS v4.
+- 🔄 **Noticias de Canal 6:** Marquesina de noticias con titulares humorísticos de Springfield.
+- 🏷️ **Generador de Apodos:** Descubre cuál sería tu nombre secreto en Springfield.
+- ☢️ **Widget de Ubicaciones:** Cambia dinámicamente entre diferentes locaciones de la ciudad.
+
+---
+
+<!-- INICIO RÁPIDO -->
+## 🚀 Inicio Rápido
+
+Sigue estos pasos para obtener una copia local en funcionamiento en tu equipo.
+
+### Prerrequisitos
+
+Asegúrate de tener instalado **Node.js** en tu sistema (se recomienda la versión 18 o superior). No necesitas ser un genio como Lisa Simpson, pero sí tener Node.js funcionando.
+
+Verifica la versión instalada en la terminal:
+```sh
+node -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Si no lo tienes instalado, ¡no entres en pánico como Homero! Descárgalo desde [nodejs.org](https://nodejs.org/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Instalación y Configuración
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/AlexisAlejandro23/springfield-dex.git
+   ```
 
-## Learn More
+2. **Navega al directorio del proyecto:**
+   ```sh
+   cd springfield-dex
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Instala las dependencias:**
+   ```sh
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Ejecuta el servidor de desarrollo:**
+   ```sh
+   npm run dev
+   # o
+   yarn dev
+   # o
+   pnpm dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Abre tu navegador:**
+   Navega a [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- SCRIPTS DISPONIBLES -->
+## 📜 Scripts Disponibles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+En el directorio del proyecto, puedes ejecutar:
+
+### `npm run dev`
+
+Ejecuta la aplicación en modo desarrollo. Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
+
+La página se recargará automáticamente cuando hagas cambios en los archivos. ¡Más rápido que Bart huyendo de Skinner!
+
+### `npm run build`
+
+Compila la aplicación para producción en la carpeta `.next`. ¡Tan optimizado como la planta nuclear de Burns... bueno, casi!
+
+### `npm start`
+
+Inicia el servidor de producción. Primero debes ejecutar `npm run build`.
+
+### `npm run lint`
+
+Ejecuta el linter de código para verificar posibles errores y problemas de estilo. Porque incluso el código merece ser tan perfecto como las donas de Homero.
+
+
+---
+
+<div align="center">
+  <p>Hecho con 🍩 y mucho amor por Springfield</p>
+  <p>¡Ay caramba!</p>
+</div>
